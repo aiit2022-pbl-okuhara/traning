@@ -4,7 +4,7 @@
 一番最初は `sample-app` データベースが存在しないのでエラーになります。そのため、初回だけコンテナに入って `CREATE DATABASE` をします。
 
 ```
-$ docker=compose up --build
+$ docker-compose up --build
 ```
 
 コンテナの中に入る。
